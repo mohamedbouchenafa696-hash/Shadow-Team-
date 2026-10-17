@@ -257,3 +257,4 @@ if(CFG.guildId){fetch("https://discord.com/api/guilds/"+CFG.guildId+"/widget.jso
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;e.target.classList.add("in");
   e.target.querySelectorAll("[data-w]").forEach(function(b){b.style.width=b.dataset.w+"%"});
   e.target.querySelectorAll("[data-t]").forEach(function(c){var t=+c.dataset.t,n=0,st=Math.max(1,Math.ceil(t/40))
+<script>setTimeout(function(){var l=document.getElementById("loader");if(l)l.remove()},2600)</script>
